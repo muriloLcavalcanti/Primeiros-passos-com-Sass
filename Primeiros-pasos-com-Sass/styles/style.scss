@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    .esquerdo{
+        width: 50%;
+        background-color: #7a0909;
+        .texto{
+            margin-top: 40%;
+            text-align: center;
+            color: #097a09;
+            font-size: 8rem;
+        }
+    }
+    .direito{
+        width: 50%;
+        background-color: #097a09;
+        .texto{
+            margin-top: 40%;
+            text-align: center;
+            color: #7a0909;
+            font-size: 8rem;
+        }
+    }
+}
