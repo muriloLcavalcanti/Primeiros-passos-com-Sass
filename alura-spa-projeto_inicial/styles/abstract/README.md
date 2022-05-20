@@ -1,0 +1,1 @@
+Nessa pasta serão adicionados arquivos como, variárveis, estilos da estrutura base do html e tudo que for referente à estrutura geral.

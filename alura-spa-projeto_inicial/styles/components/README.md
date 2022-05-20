@@ -1,0 +1,1 @@
+Nessa pasta serão adicionados arquivos que correspondem a cada pedaço específico do projeto.
