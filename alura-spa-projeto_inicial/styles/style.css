@@ -112,4 +112,19 @@ nav li a:hover {
 #services .cards .card .img-container img {
   max-width: 100%;
 }
+
+#cupom {
+  background-color: #f8ba4f;
+  padding: 4rem;
+  text-align: center;
+}
+
+#cupom .texto {
+  color: #01626e;
+}
+
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.76471rem;
+}
 /*# sourceMappingURL=style.css.map */
