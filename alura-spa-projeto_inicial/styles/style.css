@@ -15,10 +15,43 @@ nav li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #f44336;
+  color: #be01bb;
 }
 
 nav li a:hover {
-  border-bottom: 2px solid #00bcd4;
+  border-bottom: 2px solid #01626e;
+}
+
+.banner {
+  background: url("../imagens/banner.jpeg") 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #f8ba4f;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #01626e;
+}
+
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #01626e;
 }
 /*# sourceMappingURL=style.css.map */
