@@ -145,4 +145,35 @@ nav li a:hover {
   text-align: center;
   font-size: 26px;
 }
+
+#cupom .input:hover, #cupom .input:focus-within {
+  -webkit-box-shadow: 1px 1px 8px 1px #01626e;
+          box-shadow: 1px 1px 8px 1px #01626e;
+  outline: none;
+}
+
+#cupom .inscricao button {
+  text-transform: uppercase;
+  margin-top: .75rem;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  border-radius: 20px;
+  border: 2px solid #01626e;
+  background: #01626e;
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: white;
+}
+
+#cupom .inscricao button:hover {
+  background: #be01bb;
+  border: 2px solid #01626e;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */
