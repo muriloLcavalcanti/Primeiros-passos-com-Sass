@@ -1,5 +1,7 @@
 @import '../abstract/variaveis';
 
+
+
 #services{
     margin: 120px;
     h4{
@@ -16,10 +18,10 @@
         margin-bottom: 80px;
         font-weight: 300;
     }
-    .cards{
+    .cards-services{
         display: flex;
         justify-content: space-evenly;
-        .card{
+        .card-service{
             width: 360px;
             text-align: center;
             h5{
@@ -35,7 +37,7 @@
                 color: $cor-primaria;
                 line-height: 1.25rem;
             }
-            .img-container{
+            .img-container-service{
                padding-bottom: 2px;
                border-bottom: 6px solid $cor-secundaria;
                img{

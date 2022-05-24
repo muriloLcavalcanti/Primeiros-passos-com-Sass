@@ -1,0 +1,32 @@
+@import '../abstract/variaveis';
+
+#products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem 2rem 6rem;
+
+    .card-products{
+
+        padding: 0 2%;
+        h3{
+            font-size: $tamanho-de-texto / 1.2;
+            margin-bottom: 3rem;
+        }
+        h4{
+            font-size: $tamanho-de-texto / 2.5;
+            color: $cor-primaria;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin: 1rem 1rem 1rem 0rem;
+            
+        }
+        p{
+            font-size: $tamanho-de-texto / 3;
+            font-weight: 300;
+            color: $cor-primaria;
+            line-height: 1.25rem;
+            padding-right: 5em;
+        }
+    }
+}
