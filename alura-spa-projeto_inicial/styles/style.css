@@ -176,4 +176,21 @@ nav li a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+footer {
+  text-align: center;
+  font-size: 2rem;
+  border-top: 2px solid #01626e;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  color: #f8ba4f;
+  font-weight: 500;
+  background: -webkit-gradient(linear, right top, left top, from(#be01bb), color-stop(#01626e), to(#be01bb));
+  background: linear-gradient(to left, #be01bb, #01626e, #be01bb);
+}
+
+footer i {
+  color: #be01bb;
+}
 /*# sourceMappingURL=style.css.map */
